@@ -1,0 +1,7 @@
+Program,Time slot,Original rating,Modified rating,Assumption
+news,Hour 8,0.4,0.6,Illustrative higher audience demand for this program/time
+news,Hour 9,0.3,0.5,Illustrative higher audience demand for this program/time
+live_soccer,Hour 19,0.6,0.8,Illustrative higher audience demand for this program/time
+live_soccer,Hour 20,0.4,0.7,Illustrative higher audience demand for this program/time
+Boxing,Hour 22,0.4,0.6,Illustrative higher audience demand for this program/time
+Boxing,Hour 23,0.6,0.8,Illustrative higher audience demand for this program/time
