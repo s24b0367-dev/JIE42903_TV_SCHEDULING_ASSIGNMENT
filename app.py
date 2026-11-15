@@ -4,8 +4,6 @@ from ga import load_ratings, genetic_algorithm
 
 st.set_page_config(page_title='TV Scheduling | Genetic Algorithm', page_icon='📺', layout='wide')
 st.title('📺 TV Scheduling Using a Genetic Algorithm')
-st.caption('JIE42903 Evolutionary Computing • 18 hourly slots • Program repeats permitted')
-st.info('Assignment ambiguity: mutation default is written as 0.2, but the required range is 0.01–0.05. This app uses 0.02 within the stated range. Confirm with your lecturer.')
 
 hours, ratings = load_ratings('program_ratings_modified.csv')
 with st.expander('Modified ratings dataset and assumptions'):
